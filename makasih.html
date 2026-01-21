@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Terima Kasih, Angell</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', sans-serif;
+        color: #fff;
+        overflow: hidden;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 35px 30px;
+        max-width: 420px;
+        text-align: center;
+        box-shadow: 0 0 30px rgba(0,0,0,0.4);
+        animation: fadeIn 2s ease;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+    }
+
+    p {
+        line-height: 1.7;
+        font-size: 15px;
+        color: #eaeaea;
+    }
+
+    .name {
+        margin-top: 20px;
+        font-style: italic;
+        opacity: 0.8;
+    }
+
+    .heart {
+        position: absolute;
+        color: rgba(255,255,255,0.2);
+        font-size: 20px;
+        animation: float 6s infinite ease-in-out;
+    }
+
+    @keyframes float {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+        100% { transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: scale(0.95); }
+        to { opacity: 1; transform: scale(1); }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>Terima Kasih, Angell 🤍</h1>
+    <p>
+        Makasih yaa, Angell.<br><br>
+        Makasih karena kamu selalu mau dengerin cerita aku,
+        dari hal kecil sampai hal yang kadang gak semua orang mau dengerin.
+        Kamu bener-bener pendengar yang baik, dan itu berarti banyak buat aku.
+        <br><br>
+        Makasih juga karena kamu percaya buat cerita ke aku,
+        karena rasanya kita sama-sama saling dengerin,
+        bukan cuma satu arah.
+        <br><br>
+        Semoga kamu selalu dikelilingi hal-hal baik,
+        dan semoga kamu tau kalau kehadiran kamu itu berharga.
+    </p>
+    <div class="name">— dari Nadif</div>
+</div>
+
+<!-- hiasan -->
+<div class="heart" style="top:10%; left:15%;">✦</div>
+<div class="heart" style="top:20%; right:20%;">✧</div>
+<div class="heart" style="bottom:15%; left:25%;">✦</div>
+<div class="heart" style="bottom:20%; right:18%;">✧</div>
+
+</body>
+</html>
